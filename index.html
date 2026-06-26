@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>💍 Luíza & Julio | 03.10.2026</title>
 
+<!-- WhatsApp / Facebook / Telegram -->
 <meta property="og:title" content="💍 Luíza & Julio | 03.10.2026">
 <meta property="og:description" content="Convite de Casamento">
 <meta property="og:image" content="https://eujuliovascao.github.io/luizaejulio/preview.png.png">
@@ -14,8 +14,14 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 
+<!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="💍 Luíza & Julio | 03.10.2026">
+<meta name="twitter:description" content="Convite de Casamento">
 <meta name="twitter:image" content="https://eujuliovascao.github.io/luizaejulio/preview.png.png">
+
+<!-- Favicon (vamos criar depois) -->
+<!-- <link rel="icon" type="image/png" href="favicon.png"> -->
 
 <style>
 *{
@@ -24,9 +30,50 @@
     box-sizing:border-box;
 }
 
-html,body{
+html,
+body{
     width:100%;
     margin:0;
     padding:0;
     background:#f8f6f2;
+    overflow-x:hidden;
 }
+
+.container{
+    position:relative;
+    width:100%;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.capa{
+    width:100%;
+    display:block;
+}
+
+/* Área clicável do centro da capa */
+.abrir{
+    position:absolute;
+    left:15%;
+    top:30%;
+    width:70%;
+    height:50%;
+    display:block;
+    z-index:999;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="capa.png.png" class="capa" alt="Convite de Casamento">
+
+<a class="abrir" href="convite.html" aria-label="Abrir convite"></a>
+
+</div>
+
+</body>
+</html>
